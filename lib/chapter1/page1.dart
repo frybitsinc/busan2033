@@ -19,7 +19,7 @@ class Page1 extends StatelessWidget {
         SizedBox(
           height: 20,
         ),
-        AnimatedTextKit(isRepeatingAnimation: true, animatedTexts: [
+        AnimatedTextKit(displayFullTextOnTap: true, animatedTexts: [
           TyperAnimatedText('하하하.\n하하하.\n하하하.\n하하하.\n하하하.\n하하하.',
               textStyle: TextStyle(
                 fontSize: 28.0,
